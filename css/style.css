@@ -6,13 +6,39 @@
  * Made By MaterializeCSS.com
  */
 
+ :root {
+   --font-family-title: 'Open Sans Condensed', sans-serif;
+   --font-family-text: 'Quicksand', sans-serif;
+   --text-size: 12pt;
+   --title-size: 20pt;
+   --highlight-color: #61B7CA;
+   --background-color: #343C4A;
+ }
+
+h2{
+  font-family: var(--font-family-title);
+  font-size: var(--title-size);
+}
+body {
+  color: var(--background-color);
+}
 nav ul a,
 nav .brand-logo {
   color: #444;
 }
 
+nav.white {
+  height: 100px;
+}
+
 p {
-  line-height: 2rem;
+  line-height: 1.5rem;
+  font-family: var(--font-family-text);
+  font-size: var(--text-size);
+}
+
+p a {
+  color: var(--highlight-color);
 }
 
 .sidenav-trigger {
@@ -20,13 +46,15 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 500px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
+
 }
   .parallax-container .section {
     width: 100%;
+    background-size: cover;
   }
 
 @media only screen and (max-width : 992px) {
