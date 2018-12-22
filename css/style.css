@@ -46,15 +46,20 @@ p a {
 }
 
 .parallax-container {
-  min-height: 500px;
+  min-height: 600px;
+  width: 100%;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
 
 }
   .parallax-container .section {
-    width: 100%;
     background-size: cover;
+  }
+
+  .parallax-img {
+    width: 100%;
+    height: auto;
   }
 
 @media only screen and (max-width : 992px) {
