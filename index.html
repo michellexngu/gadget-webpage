@@ -68,7 +68,31 @@
     <div id="content1" class="gridder-content">
         <div class="row">
             <div class="col-sm-6">
-                <img src="images/Amp1.jpeg" class="image-original">
+                <div class="slider">
+                    <ul class="slides">
+                        <li>
+                            <img src="images/Amp1.jpeg" class="image-original"> <!-- random image -->
+                            <div class="caption center-align">
+                                <h3>Amplifier</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/Amp2.jpeg" class="image-original"> <!-- random image -->
+                            <div class="caption left-align">
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/Amp3.jpeg" class="image-original"> <!-- random image -->
+                            <div class="caption right-align">
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/Amp4.jpeg" class="image-original"> <!-- random image -->
+                            <div class="caption center-align">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="col-sm-6">
                 <h2>Amplifier</h2>
@@ -225,7 +249,11 @@
         });
     });
 </script>
-
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.slider').slider();
+    });
+</script>
 </body>
 
 </html>
