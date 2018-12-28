@@ -96,23 +96,6 @@ p a {
   width: 100%;
 }
 
-.image-fluid:hover {
-
-  opacity: 0;
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  /*Geschwindigkeit für den Wechsel von Bild zum Hover*/
-  transition: .3s ease;
-  background-color: var(--highlight-color);
-}
 .image-original{
 
   width: 100%;
@@ -189,11 +172,6 @@ p a {
 .gridder-list{
   cursor:pointer
 }
-.gridder-list:hover{
-  background-color: var(--highlight-color);
-}
-
-
 
 .hasSelectedItem .gridder-list{
   opacity:.5
@@ -218,7 +196,7 @@ footer.page-footer {
   margin: 0;
 }
 
-/* hover Overlay*/
+/* hover overlay*/
 .hvrbox,
 .hvrbox * {
   box-sizing: border-box;
@@ -258,8 +236,9 @@ footer.page-footer {
   opacity: 1;
 }
 .hvrbox .hvrbox-text {
+  font-family: var(--font-family-text);
   text-align: center;
-  font-size: 18px;
+  font-size: 36px;
   display: inline-block;
   position: absolute;
   top: 50%;
