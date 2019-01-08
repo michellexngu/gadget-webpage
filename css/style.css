@@ -40,6 +40,22 @@ nav.white {
   height: 100px;
 }
 
+.navi {
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.navi li {
+    display: inline;
+}
+
+.navi a{
+    display: inline-block;
+    padding: 13px;
+}
+
 p {
   line-height: 1.5rem;
   font-family: var(--font-family-text);
@@ -248,6 +264,8 @@ footer.page-footer {
   }
 }
 
+/*Responsive Media Screen (only for Mobile and iPad)*/
+/*General Settings*/
 @media only screen and (min-width: 993px) {
   .container {
     text-align: center;
@@ -260,9 +278,15 @@ footer.page-footer {
   }
 }
 
+@media only screen and (max-width: 699px) {
+    .gridder-list {
+        width: 48%;
+    }
+}
+
 @media screen and (min-width: 700px){
   .gridder-list{
-    width:30%
+    width:31.9%
   }
   .gridder-list:nth-child(n){
     margin-bottom:1%;margin-right:1%
@@ -270,4 +294,20 @@ footer.page-footer {
   .gridder-list:nth-of-type(6n){
     margin-bottom:0;
   }
+}
+
+/* iPhone 6/ 7/ 8 */
+@media screen and (max-width: 414px){
+    .gridder-list {
+        width: 48%;
+    }
+}
+
+
+.nav
+/*iPad Landscape and Vertical Mode*/
+@media screen and (max-width: 1024px) {
+    .container{
+        text-align: center;
+    }
 }
