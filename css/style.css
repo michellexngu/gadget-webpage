@@ -19,6 +19,11 @@ h2{
   font-family: var(--font-family-title);
   font-size: var(--title-size);
 }
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
 body {
   color: var(--background-color);
 }
@@ -69,6 +74,12 @@ p a {
   }
   #index-banner .section {
     top: 10%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+      text-align: center;
   }
 }
 

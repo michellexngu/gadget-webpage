@@ -979,8 +979,8 @@
   color: #00b8d4 !important;
 }
 
-.grey {
-  background-color: #535353 !important;
+.teal {
+  background-color: #009688 !important;
 }
 
 .teal-text {
@@ -1026,7 +1026,6 @@
 .teal-text.text-lighten-1 {
   color: #26a69a !important;
 }
-grey
 .teal.darken-1 {
   background-color: #00897b !important;
 }
@@ -3441,7 +3440,6 @@ table span.badge {
 @media only screen and (min-width: 993px) {
   .container {
     width: 70%;
-      text-align: center;
   }
 }
 
