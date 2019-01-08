@@ -32,6 +32,10 @@ nav .brand-logo {
   color: #444;
 }
 
+nav .brand-logo {
+    position:relative;
+}
+
 nav.white {
   height: 100px;
 }
