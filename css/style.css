@@ -47,6 +47,10 @@ nav.white {
     text-align:center;
 }
 
+nav ul li {
+    float:none;
+}
+
 .navi li {
     display: inline;
 }
@@ -270,6 +274,9 @@ footer.page-footer {
   .container {
     text-align: center;
   }
+    nav ul li {
+        float: none;
+    }
 }
 
 @media only screen and (max-width : 600px) {
