@@ -48,7 +48,7 @@ nav.white {
 }
 
 nav ul li {
-    float:none;
+    float: none;
 }
 
 .navi li {
@@ -266,6 +266,9 @@ footer.page-footer {
   #index-banner .section {
     top: 10%;
   }
+    nav ul li {
+    float: none;
+}
 }
 
 /*Responsive Media Screen (only for Mobile and iPad)*/
@@ -275,8 +278,9 @@ footer.page-footer {
     text-align: center;
   }
     nav ul li {
-        float: none;
-    }
+    float: none;
+}
+
 }
 
 @media only screen and (max-width : 600px) {
@@ -289,6 +293,9 @@ footer.page-footer {
     .gridder-list {
         width: 48%;
     }
+    nav ul li {
+    float: none;
+}
 }
 
 @media screen and (min-width: 700px){
@@ -301,6 +308,10 @@ footer.page-footer {
   .gridder-list:nth-of-type(6n){
     margin-bottom:0;
   }
+    nav ul li {
+    float: none;
+}
+
 }
 
 /* iPhone 6/ 7/ 8 */
@@ -308,6 +319,7 @@ footer.page-footer {
     .gridder-list {
         width: 48%;
     }
+
 }
 
 
@@ -317,4 +329,8 @@ footer.page-footer {
     .container{
         text-align: center;
     }
+
+    nav ul li {
+    float: none;
+}
 }
