@@ -257,6 +257,7 @@ footer.page-footer {
   display: block;
 }
 
+
 /* Media */
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -268,7 +269,7 @@ footer.page-footer {
   }
     nav ul li {
     float: none;
-}
+    }
 }
 
 /*Responsive Media Screen (only for Mobile and iPad)*/
@@ -279,8 +280,13 @@ footer.page-footer {
   }
     nav ul li {
     float: none;
+    }
 }
 
+@media only screen and (max-width: 992px) {
+    nav .brand-logo {
+        position: absolute;
+    }
 }
 
 @media only screen and (max-width : 600px) {
@@ -295,42 +301,73 @@ footer.page-footer {
     }
     nav ul li {
     float: none;
-}
+    }
 }
 
 @media screen and (min-width: 700px){
   .gridder-list{
-    width:31.9%
-  }
+      width:31.9%
+    }
   .gridder-list:nth-child(n){
-    margin-bottom:1%;margin-right:1%
-  }
+      margin-bottom:1%;margin-right:1%
+    }
   .gridder-list:nth-of-type(6n){
-    margin-bottom:0;
-  }
+      margin-bottom:0;
+    }
+    nav ul li {
+        float: none;
+    }
+    .navi {
+        display: inline;
+    }
+
+}
+
+/*iPad Landscape Mode*/
+@media screen and (max-width: 1024px) {
+    .container{
+        text-align: center;
+        max-width: none;
+    }
     nav ul li {
     float: none;
+    }
+    
 }
 
+/* iPad Vertical Mode*/
+@media screen and (max-width: 768px) {
+    .parallax-container {
+        min-height: 350px;
+    }
+    .navi {
+        display: inline;
+    }
+    nav .brand-logo{
+        position: absolute;
+    } 
 }
 
-/* iPhone 6/ 7/ 8 */
+/* iPhone 6/ 7/ 8 Landscape Mode*/
+@media screen and (max-width: 736px){
+    .parallax-container {
+        min-height: 314px;
+    }
+    .navi {
+        display: inline;
+    }
+}
+
+/* iPhone 6/ 7/ 8 Vertical Mode*/
 @media screen and (max-width: 414px){
     .gridder-list {
         width: 48%;
     }
-
-}
-
-
-.nav
-/*iPad Landscape and Vertical Mode*/
-@media screen and (max-width: 1024px) {
-    .container{
-        text-align: center;
+    .parallax-container {
+        min-height: 250px;
     }
+     .navi {
+        display: inline;
+    }
+}
 
-    nav ul li {
-    float: none;
-}
-}
