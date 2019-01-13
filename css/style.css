@@ -279,10 +279,6 @@ div.last-row {
 
 /* Media */
 @media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
   #index-banner .section {
     top: 10%;
   }
@@ -384,10 +380,17 @@ div.last-row {
     .navi {
         display: inline;
     }
+    nav ul a, .hvrbox .hvrbox-text, h2{
+      font-size: 15pt;
+    }
+
+    p {
+      font-size: 12pt;
+    }
 }
 
 /* iPhone 6/ 7/ 8 Vertical Mode*/
-@media screen and (max-width: 480px){
+@media screen and (max-width: 550px){
     .gridder-list {
         width: 48%;
     }
