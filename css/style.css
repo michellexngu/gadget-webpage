@@ -239,9 +239,9 @@ footer.page-footer {
   opacity: 1;
 }
 .hvrbox .hvrbox-text {
-  font-family: var(--font-family-text);
+  font-family: var(--font-family-title);
   text-align: center;
-  font-size: 36px;
+  font-size: var(--title-size);
   display: inline-block;
   position: absolute;
   top: 50%;
