@@ -88,6 +88,19 @@ p a {
   color: var(--highlight-color);
 }
 
+p.content {
+  text-align: left;
+}
+
+img.logo {
+  height: 70px;
+}
+
+div.nav-wrapper.container {
+  height: 70px;
+  margin-top: 2%;
+}
+
 .sidenav-trigger {
   color: #707070;
 }
@@ -163,7 +176,7 @@ ul.gridder {
 .gridder-show{
   display:block;
   float:left;
-  width:98.5%;
+  width:100%;
   position:relative;
 
 }
