@@ -29,7 +29,7 @@ body {
 }
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: var(--background-color);
 }
 
 nav .brand-logo {
@@ -47,6 +47,10 @@ nav.white {
     text-align:center;
 }
 
+nav.white.nav-extended {
+  height: 150px;
+}
+
 nav ul li {
     float: none;
 }
@@ -58,6 +62,20 @@ nav ul li {
 .navi a{
     display: inline-block;
     padding: 13px;
+}
+
+nav ul a {
+  font-family: var(--font-family-title);
+  font-size: var(--title-size);
+}
+
+nav ul li a:hover, a.active {
+  color: var(--highlight-color);
+  background-color: transparent;
+}
+
+nav {
+  -webkit-box-shadow: none;
 }
 
 p {
@@ -98,12 +116,6 @@ p a {
   font-size: inherit;
 }
 
-.container{
-/*
-  display: block;
-  */
-}
-
 .image-fluid {
 
   width: 100%;
@@ -127,8 +139,9 @@ p a {
   padding: 10px;
 }
 
-.girdder-
-
+ul.gridder {
+  margin-top: 0;
+}
 
 .gridder{
   margin:0px;
@@ -136,9 +149,6 @@ p a {
   list-style-type:none
 }
 
-.gridder-container{
-
-}
 .gridder-list{
   display:inline-block;
   vertical-align:top;
@@ -158,10 +168,6 @@ p a {
 
 .gridder-list{
   width:49.5%
-}
-
-.gridder-list:nth-child(n){
-
 }
 
 .gridder-list:nth-of-type(2n){
