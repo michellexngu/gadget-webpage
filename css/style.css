@@ -348,7 +348,7 @@ div.last-row {
 }
 
 /*iPad Landscape Mode*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1050px) {
     .container{
         text-align: center;
         max-width: none;
@@ -357,10 +357,14 @@ div.last-row {
     float: none;
     }
     
+    .parallax-container {
+      min-height: 450px;
+  }
+    
 }
 
 /* iPad Vertical Mode*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
     .parallax-container {
         min-height: 350px;
     }
@@ -383,12 +387,12 @@ div.last-row {
 }
 
 /* iPhone 6/ 7/ 8 Vertical Mode*/
-@media screen and (max-width: 414px){
+@media screen and (max-width: 480px){
     .gridder-list {
         width: 48%;
     }
     .parallax-container {
-        min-height: 250px;
+        min-height: 200px;
     }
      .navi {
         display: inline;
