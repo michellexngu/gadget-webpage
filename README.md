@@ -1,6 +1,6 @@
 # Gadget Webpage
 
-An interactive webpage, displaying electronic gadgets made from Zurich.
+An interactive webpage prototype, displaying electronic gadgets made from Zurich.
 
 ##### Homescreen
 
